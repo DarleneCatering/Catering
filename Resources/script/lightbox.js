@@ -30,3 +30,10 @@ window.onclick = function(event) {
     base.style.display="block";
   }
 }
+
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+    modal.style.display = "none";
+    base.style.display="block";
+  }
+});
